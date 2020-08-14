@@ -194,8 +194,6 @@ function getData() {
         });
       }
 
-      console.log(filteredArray);
-
       // set output
       output = buildOutput(filteredArray);
 
