@@ -146,7 +146,7 @@ function getData() {
   $(".loading-container").css("display", "flex");
 
   // API url
-  const makeupApiUrl = `http://makeup-api.herokuapp.com/api/v1/products.json?brand=${brand}`;
+  const makeupApiUrl = `https://makeup-api.herokuapp.com/api/v1/products.json?brand=${brand}`;
 
   // get data from API with AJAX
   $.ajax({
